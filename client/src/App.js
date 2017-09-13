@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import AuthorList from "./components/AuthorList";
+import AuthorList from "./components/AllAuthors";
 import Author from "./components/Author";
 import "./App.css";
 

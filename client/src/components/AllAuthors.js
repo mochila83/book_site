@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
-import ArtistCard from './ArtistCard';
-import styled from 'styled-components';
 
-const AuthorListStyles = styled.div`
-  margin: 20px 5%;
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-`;
-
-class AllAuthors extends Component{
+class AllAuthors extends Component {
   constructor(){
     super();
     this.state = {
@@ -26,25 +17,32 @@ class AllAuthors extends Component{
 
   _fetchAuthors = async () => {
     try {
-      const response = await axios.get('/api/authors');
-      const authors = response.data;
-      this.setState({authors});
-    } catch (err) {
-      this.setState({error: err})
+      const res = await axios.get('/api/authors');
+      await this.setState({authors: res.data});
+      return res.data;
     }
+    catch (err) {
+      console.log(err)
+      await this.setState({error: err.message})
+      return err.message
+    }
+    
   }
 
-  render(){
+  render() {
     if (this.state.error){
-      return <h1>{this.state.error.message}</h1>
+      return <div>{this.state.error}</div>
     }
     return (
-      <AuthorListStyles>
-        {this.state.authors.map((author) => (
-          <AuthorCard key={author.id} author={author} />
+      <div>
+        <h1>All Authors</h1>
+        {this.state.authors.map(author => (
+          <div>
+            <Link to={`/authors/${author.id}`} >{author.name}</Link> 
+          </div>
         ))}
-      </AuthorListStyles>
-    )
+      </div>
+    );
   }
 }
 
