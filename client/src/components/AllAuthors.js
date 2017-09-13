@@ -36,7 +36,7 @@ class AllAuthors extends Component {
     }
     return (
       <div>
-        <h1>All Authors</h1>
+        <h1>Authors of the Month</h1>
         {this.state.authors.map(author => (
           <div>
             <Link to={`/authors/${author.id}`} >{author.name}</Link> 

@@ -56,7 +56,7 @@ class GlobalNav extends Component {
       return (
         <Nav>
           <Link to="/">
-            <h1>Tunr</h1>
+            <h1>Book Club</h1>
           </Link>
           <div>
             <span>Signed In As: {this.state.user.email}</span>
