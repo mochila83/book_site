@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import AuthorList from "./components/AllAuthors";
 import Author from "./components/Author";
 import "./App.css";
+import GlobalNav from "./components/GlobalNav";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <div>
+            <GlobalNav />
             <h1>Book Club</h1>
             <div>
               <Link to="/">Author</Link>
