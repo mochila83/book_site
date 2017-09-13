@@ -15,7 +15,7 @@ class App extends Component {
             <h1>Book Club</h1>
             <div>
               <Link to="/">Author</Link>
-              <Link to="/artist/1">Single Author</Link>
+              <Link to="/author/1">Single Author</Link>
             </div>
           </div>
           <Route exact path="/" component={AuthorList} />

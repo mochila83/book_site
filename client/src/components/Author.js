@@ -34,7 +34,7 @@ class Author extends Component{
   render(){
     return (
       <AuthorStyles>
-        <img src={this.state.book.photo_url} />
+        <img src={this.state.author.preview_url} />
         <h1>{this.state.author.name}</h1>
         <h3>Books</h3>
         {this.state.books.map(book => (
