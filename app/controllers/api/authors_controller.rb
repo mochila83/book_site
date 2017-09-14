@@ -12,7 +12,11 @@ class Api::AuthorsController < ApplicationController
     
       def show
         @author = Author.find(params[:id])
-        render json: @author
+        @books = @author.books.all
+        render json: {
+          author: @author,
+          books: @books
+        }
       end
     
       def update

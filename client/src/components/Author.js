@@ -26,20 +26,23 @@ class Author extends Component{
     const id = this.props.match.params.id;
     const res = await axios.get(`/api/authors/${id}`)
     this.setState({
-      author: res.data
-   
+      author: res.data.author,
+      books: res.data.books 
     })
   }
 
   render(){
     return (
+        
       <AuthorStyles>
         <img src={this.state.author.preview_url} />
         <h1>{this.state.author.name}</h1>
-        <h3>Books</h3>
+        <h3>Book</h3>
+        
         {this.state.books.map(book => (
           <div key={book.id}>
             <p>Title: {book.title}</p>
+            <img src={book.preview_url} />
           </div>
         ))}
       </AuthorStyles>
