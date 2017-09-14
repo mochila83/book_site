@@ -14,8 +14,7 @@ class App extends Component {
             <GlobalNav />
             <h1>Book Club</h1>
             <div>
-              <Link to="/">Author</Link>
-              <Link to="/author/1">Single Author</Link>
+              <Link to="/">Authors</Link>
             </div>
           </div>
           <Route exact path="/" component={AuthorList} />
