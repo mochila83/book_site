@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 const AuthorStyles = styled.div`
   img {
@@ -39,6 +40,11 @@ class Author extends Component{
       <AuthorStyles>
         <img src={this.state.author.preview_url} />
         <h1>{this.state.author.name}</h1>
+        <div>
+            <Link to={`/authors/${this.props.match.params.id}/edit`}>
+            <button>Edit Author</button>
+            </Link>
+        </div>
         <h3>Book</h3>
         
         {this.state.books.map(book => (

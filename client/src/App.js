@@ -5,6 +5,8 @@ import Author from "./components/Author";
 import "./App.css";
 import GlobalNav from "./components/GlobalNav";
 import styled from 'styled-components';
+import EditAuthor from "./components/EditAuthor";
+
 
 
 const BookClub = styled.div`
@@ -35,7 +37,8 @@ class App extends Component {
             </BookClub>
           </div>
           <Route exact path="/" component={AllAuthors} />
-          <Route path="/authors/:id" component={Author} />
+          <Route exact path="/authors/:id" component={Author} />
+          <Route exact path="/authors/:id/edit" component={EditAuthor} />
         </div>
       </Router>
     );
