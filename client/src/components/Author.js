@@ -4,9 +4,11 @@ import styled from 'styled-components'
 
 const AuthorStyles = styled.div`
   img {
-    max-height: 400px;
-    width: 100%;
+    max-height: 300px;
+    width: 300px;
   }
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
 `;
 
 class Author extends Component{

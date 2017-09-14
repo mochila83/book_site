@@ -3,6 +3,18 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import styled from 'styled-components';
 
+const AuthorContainer = styled.div`
+  background-color: rgba(255, 255, 255, 0.5);
+  a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    background-color: blue;
+  }
+`
+
 class AllAuthors extends Component {
   constructor(){
     super();
@@ -35,14 +47,14 @@ class AllAuthors extends Component {
       return <div>{this.state.error}</div>
     }
     return (
-      <div>
+      <AuthorContainer>
         <h1>Authors of the Month</h1>
         {this.state.authors.map(author => (
           <div>
             <Link to={`/authors/${author.id}`} >{author.name}</Link> 
           </div>
         ))}
-      </div>
+      </AuthorContainer>
     );
   }
 }
