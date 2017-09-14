@@ -26,8 +26,8 @@ class Author extends Component{
     const id = this.props.match.params.id;
     const res = await axios.get(`/api/authors/${id}`)
     this.setState({
-      author: res.data.author,
-      books: res.data.books
+      author: res.data
+   
     })
   }
 
