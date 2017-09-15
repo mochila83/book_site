@@ -18,16 +18,10 @@
 
 * [Trello](https://trello.com/b/c99TB04R/final-project)
 
-Things you may want to cover:
+## Technologies Used:
 
-* Ruby version 2.4.1
+![alt tag](https://i.imgur.com/4nxgcsN.jpg "Ruby on Rails")
 
-* Rails version 5.1.4
 
-* React version 15.6.1
-
-* System dependencies
-
-* Deployment instructions
 
 
