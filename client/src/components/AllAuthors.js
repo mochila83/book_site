@@ -47,6 +47,9 @@ class AllAuthors extends Component {
       return <div>{this.state.error}</div>
     }
     return (
+      <div>
+        <a href="/author/new">
+        <button>Add New Author</button></a>
       <AuthorContainer>
         <h1>Authors of the Month</h1>
         {this.state.authors.map(author => (
@@ -55,6 +58,7 @@ class AllAuthors extends Component {
           </div>
         ))}
       </AuthorContainer>
+      </div>
     );
   }
 }

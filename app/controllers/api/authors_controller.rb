@@ -22,7 +22,7 @@ class Api::AuthorsController < ApplicationController
       def update
         @author = Author.find(params[:id])
         @author.update!(author_params)
-        redirect_to author_path(@author)
+        render json: @author
       end
     
       def destroy

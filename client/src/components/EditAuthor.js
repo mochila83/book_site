@@ -39,6 +39,7 @@ class EditAuthor extends Component {
         const author = this.state.author
         const authorId = this.props.match.params.id
         try {
+            console.log(author)
             const res = await axios.patch(`/api/authors/${authorId}`, author)
             this.setState({ redirect: true })
             return res.data
@@ -75,7 +76,7 @@ class EditAuthor extends Component {
                 <form onSubmit={this._editAuthor}>
                     <div>
                         <label htmlFor="name">Name: </label>
-                        <input onChange={this._handleChange} type="text" name="name" placeholder={this.state.author.name} />
+                        <input onChange={this._handleChange} type="text" name="name" value={this.state.author.name} />
                     </div>
                     {/* <div>
                         <label htmlFor="book">book: </label>
@@ -83,7 +84,7 @@ class EditAuthor extends Component {
                     </div> */}
                     <div>
                         <label htmlFor="preview_url">preview_url: </label>
-                        <input onChange={this._handleChange} type="text" name="preview_url" placeholder={this.state.author.preview_url} />
+                        <input onChange={this._handleChange} type="text" name="preview_url" value={this.state.author.preview_url} />
                     </div>
                     <button>Submit</button>
                 </form>
