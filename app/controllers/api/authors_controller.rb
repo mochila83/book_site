@@ -1,13 +1,13 @@
 class Api::AuthorsController < ApplicationController
 
-    def index
+      def index
         @authors = Author.all
         render json: @authors
       end
     
       def create
-        @author = Author.create!(author_params)
-        redirect_to author_path(@author)
+        @author = Author.create(author_params)
+        render json: @author
       end
     
       def show

@@ -6,6 +6,7 @@ import "./App.css";
 import GlobalNav from "./components/GlobalNav";
 import styled from 'styled-components';
 import EditAuthor from "./components/EditAuthor";
+import NewAuthor from "./components/NewAuthor";
 
 
 
@@ -39,6 +40,7 @@ class App extends Component {
           <Route exact path="/" component={AllAuthors} />
           <Route exact path="/authors/:id" component={Author} />
           <Route exact path="/authors/:id/edit" component={EditAuthor} />
+          <Route exact path="/author/new" component={NewAuthor} />
         </div>
       </Router>
     );

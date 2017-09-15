@@ -9,7 +9,7 @@ class EditAuthor extends Component {
             redirect: false,
             author: {
                 name: '',
-                photo_url: ''
+                preview_url: ''
             }
         }
         this._handleChange = this._handleChange.bind(this);
@@ -25,9 +25,8 @@ class EditAuthor extends Component {
             const res = await axios.get(`/api/authors/${authorId}`)
             await this.setState({
                 author: {
-                    name: res.data.name,
-                    book: res.data.title,
-                    photo_url: res.data.photo_url
+                    name: res.data.author.name,
+                    preview_url: res.data.author.preview_url
                 }
             })
         }
@@ -49,7 +48,7 @@ class EditAuthor extends Component {
         }
     }
     _deleteAuthor = async (e)=>{
-        const id = this .props.match.params.id;
+        const id = this.props.match.params.id;
         try{
             const res = await axios.delete(`/api/authors/${id}`)
             this.setState({redirect: true})
@@ -83,8 +82,8 @@ class EditAuthor extends Component {
                         <input onChange={this._handleChange} type="text" name="book" value={this.state.book.title} />
                     </div> */}
                     <div>
-                        <label htmlFor="photo_url">photo_url: </label>
-                        <input onChange={this._handleChange} type="text" name="photo_url" placeholder={this.state.author.photo_url} />
+                        <label htmlFor="preview_url">preview_url: </label>
+                        <input onChange={this._handleChange} type="text" name="preview_url" placeholder={this.state.author.preview_url} />
                     </div>
                     <button>Submit</button>
                 </form>
