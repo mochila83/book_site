@@ -2,7 +2,7 @@
 
 # Application Name: Book Club
 
-* Full-stack app using Ruby on Rails for the Back-End and React for the Front-End. This is the beginnigs of a virtual book-club. Where users can keep track of books and authors. Add favorites, read reviews on books, and discuss the books they are reading in their book club. 
+* Full-stack app using Ruby on Rails for the Back-End and React for the Front-End. This is the beginnigs of a virtual book-club, where users can keep track of books and authors they are currently reading.  
 
 ## Initial Requirements
 
