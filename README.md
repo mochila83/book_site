@@ -4,19 +4,19 @@
 
 ## Initial Requirements
 
-* [I'm an inline-style link](https://github.com/ATL-WDI-Curriculum/atl-wdi/tree/master/projects/unit_04)
+* [WDI-11 Project Requirements](https://github.com/ATL-WDI-Curriculum/atl-wdi/tree/master/projects/unit_04)
 
 ## Heroku Link
 
-* [I'm an inline-style link](https://book-club-site.herokuapp.com/)
+* [Book Club Site](https://book-club-site.herokuapp.com/)
 
 ## GitHub Link
 
-* [I'm an inline-style link](https://github.com/mochila83/book_site)
+* [GitHub Repo](https://github.com/mochila83/book_site)
 
 ## Trello Board Link
 
-* [I'm an inline-style link](https://trello.com/b/c99TB04R/final-project)
+* [Trello](https://trello.com/b/c99TB04R/final-project)
 
 Things you may want to cover:
 
