@@ -20,7 +20,13 @@
 
 ## Technologies Used:
 
-![alt tag](https://i.imgur.com/4nxgcsN.jpg "Ruby on Rails")
+![Ruby on Rails](https://i.imgur.com/4nxgcsN.jpg "Ruby on Rails")
+
+![alt tag](https://i.imgur.com/5U0Kxns.png "React")
+
+![alt tag](https://i.imgur.com/wnQTdtD.png "Styled-Components")
+
+![alt tag](https://i.imgur.com/vi24bDc.png "Postgresql")
 
 
 
