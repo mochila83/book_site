@@ -22,11 +22,11 @@
 
 ![Ruby on Rails](https://i.imgur.com/4nxgcsN.jpg "Ruby on Rails")
 
-![alt tag](https://i.imgur.com/5U0Kxns.png "React")
+![React](https://i.imgur.com/5U0Kxns.png "React")
 
-![alt tag](https://i.imgur.com/wnQTdtD.png "Styled-Components")
+![Styled Components](https://i.imgur.com/wnQTdtD.png "Styled-Components")
 
-![alt tag](https://i.imgur.com/vi24bDc.png "Postgresql")
+![Postgresql](https://i.imgur.com/vi24bDc.png "Postgresql")
 
 
 
