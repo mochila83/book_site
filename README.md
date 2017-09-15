@@ -2,6 +2,8 @@
 
 # Application Name: Book Club
 
+* Full-stack app using Ruby on Rails for the Back-End and React for the Front-End. This is the beginnigs of a virtual book-club. Where users can keep track of books and authors. Add favorites, read reviews on books, and discuss the books they are reading in their book club. 
+
 ## Initial Requirements
 
 * [WDI-11 Project Requirements](https://github.com/ATL-WDI-Curriculum/atl-wdi/tree/master/projects/unit_04)
@@ -24,6 +26,23 @@
 
 
 ![Styled Components](https://i.imgur.com/wnQTdtD.png "Styled-Components")![Postgresql](https://i.imgur.com/vi24bDc.png "Postgresql")
+
+
+## Wireframes & ERDs
+
+
+
+## Future Development
+
+* Add User Authentication and an Admin.
+
+* Add external API for Book reviews from GoodReads.
+
+* Adding a chat forum for users to discuss the books they are currently reading for their book club.
+
+* Adding a favorite list for Users.
+
+* Add a chat room feature.
 
 
 
