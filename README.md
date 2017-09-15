@@ -20,13 +20,10 @@
 
 ## Technologies Used:
 
-![Ruby on Rails](https://i.imgur.com/4nxgcsN.jpg "Ruby on Rails")
+![Ruby on Rails](https://i.imgur.com/4nxgcsN.jpg "Ruby on Rails")![React](https://i.imgur.com/5U0Kxns.png "React")
 
-![React](https://i.imgur.com/5U0Kxns.png "React")
 
-![Styled Components](https://i.imgur.com/wnQTdtD.png "Styled-Components")
-
-![Postgresql](https://i.imgur.com/vi24bDc.png "Postgresql")
+![Styled Components](https://i.imgur.com/wnQTdtD.png "Styled-Components")![Postgresql](https://i.imgur.com/vi24bDc.png "Postgresql")
 
 
 
