@@ -30,6 +30,14 @@
 
 ## Wireframes & ERDs
 
+![Wireframes](https://i.imgur.com/Ip7fuMz.jpg "Wireframes")
+
+![Wireframes](https://i.imgur.com/URVHL7j.jpg?1 "Wireframes")
+
+![ERDs](https://i.imgur.com/HdjuLUq.jpg "ERDs")
+
+
+
 
 
 ## Future Development
