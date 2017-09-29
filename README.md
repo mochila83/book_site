@@ -12,13 +12,6 @@
 
 * [Book Club Site](https://book-club-site.herokuapp.com/)
 
-## GitHub Link
-
-* [GitHub Repo](https://github.com/mochila83/book_site)
-
-## Trello Board Link
-
-* [Trello](https://trello.com/b/c99TB04R/final-project)
 
 ## Technologies Used:
 
