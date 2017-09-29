@@ -28,17 +28,6 @@
 ![Styled Components](https://i.imgur.com/wnQTdtD.png "Styled-Components")![Postgresql](https://i.imgur.com/vi24bDc.png "Postgresql")
 
 
-## Wireframes & ERDs
-
-![Wireframes](https://i.imgur.com/Ip7fuMz.jpg "Wireframes")
-
-![Wireframes](https://i.imgur.com/URVHL7j.jpg?1 "Wireframes")
-
-![ERDs](https://i.imgur.com/HdjuLUq.jpg "ERDs")
-
-
-
-
 
 ## Future Development
 
@@ -50,7 +39,6 @@
 
 * Adding a favorite list for Users.
 
-* Add a chat room feature.
 
 
 
